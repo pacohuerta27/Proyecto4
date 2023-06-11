@@ -1,6 +1,12 @@
 const AboutPage = () => {
   return (
-    <h1>AboutPage</h1>
+    <>
+     <main className="row">
+            <article className="col">
+                <h2>About Page</h2>
+            </article>
+        </main>
+    </>
   );
 };
 
