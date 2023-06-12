@@ -7,6 +7,8 @@ import CustomerPage from "../pages/CustomerPage";
 import UseStatePage from "../pages/UseStatePage";
 import PostPages from "../pages/PostPages";
 import BoocksPage from "../pages/BoocksPage";
+import CrudPage from "../pages/CrudPage";
+
 
 const AppRouter = () => {
   return (
@@ -22,6 +24,7 @@ const AppRouter = () => {
             <Route path="/use-state" element={<UseStatePage />} />
             <Route path="/posts" element={<PostPages />} />
             <Route path="/boocks" element={<BoocksPage />} />
+            <Route path="/crud" element={<CrudPage />} />
 
             <Route path="/*" element={<Navigate to="/"/>} />
             
